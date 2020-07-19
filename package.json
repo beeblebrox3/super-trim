@@ -4,8 +4,8 @@
   "description": "Trim string whitespaces (or other characters) from the beginning and end of strings",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config .jest-config.json",
-    "test-watch": "jest --config .jest-config.json --watch"
+    "test": "jest",
+    "test-watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/beeblebrox3/super-trim#readme",
   "devDependencies": {
-    "jest": "^17.0.3"
+    "@types/jest": "^26.0.5",
+    "jest": "^26.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
