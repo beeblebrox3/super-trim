@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "lint:errors": "eslint --quiet ./src"
   },
   "repository": {
     "type": "git",
@@ -21,8 +24,13 @@
   },
   "homepage": "https://github.com/beeblebrox3/super-trim#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.5",
-    "jest": "^26.0.0"
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.5.1"
   },
   "engines": {
     "node": ">=10.0.0"
