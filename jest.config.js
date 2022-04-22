@@ -1,5 +1,5 @@
 module.exports = {
-    "collectCoverage": true,
-    "collectCoverageFrom": ["src/*.js"],
-    "coverageDirectory": "coverage-report"
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/*.js"],
+  "coverageDirectory": "coverage-report"
 }
